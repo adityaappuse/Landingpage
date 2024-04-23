@@ -1,0 +1,29 @@
+
+.main3 {
+    background-color: beige;
+    max-height: 120vh;
+    max-width: auto;
+    margin:0;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 75vw;
+    max-height: 68vh;
+}
+.scrollmenu
+{
+    overflow: auto;
+    white-space:nowrap;
+    object-fit: cover;
+    transition: width 1s linear 500ms;
+    
+}
+div.scrollmenu img{
+    padding:5rem 1rem 5rem 0;
+    display:inline-block;
+
+}
+div.scrollmenu img:hover{
+    max-width: 85vw;
+    max-height: 77vh;
+}

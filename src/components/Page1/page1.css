@@ -1,0 +1,50 @@
+
+.main1
+{
+    display:flex;
+    position:relativez;
+    background-color: #586f7c;
+    font-family:'Times New Roman';
+    background-size:cover;
+    max-width:100vw;
+    height:90vh;
+    overflow:hidden;
+}
+.sub1{
+    font-size: 3.5rem;
+    margin-top:8vh;
+    margin-right: auto;
+    margin-left: 5em;
+    max-height:90vh;
+    max-width: 20vw;
+}
+    
+.sideimage{
+    max-height: auto;
+    max-width: auto;
+    padding-right: 1rem;
+    
+}
+.sideimage img{
+    transform: translate(10%);
+    object-fit: cover;
+    max-height: 100vh;
+    width:50vw;
+}
+
+a{
+    color:beige;
+    text-decoration: none;
+    background-color: #050517;
+    font-size: 25px; 
+    border-color: none;
+    border-radius: 3px;
+    
+}
+
+a:hover{
+    color:black;
+    background-color:white;
+    font-size: 27px;
+    box-shadow:5px 5px grey;
+}
